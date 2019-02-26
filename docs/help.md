@@ -226,10 +226,10 @@ l **你知道吗？**
 
 # 4. 更多帮助
 
-  **如需更多帮助，欢迎联系我们：** **njzjz@msn.com**
+  **如需更多帮助，欢迎联系我们： njzjz@msn.com**
 
   **华东师范大学团队二号**
 
-  **网址：****[http://chem.njzjz.win/](http://chem.njzjz.win/)**
+  **网址：[http://chem.njzjz.win/](http://chem.njzjz.win/)**
 
-  **VER****：****V1.2**
+  **VER：V1.2**
