@@ -12,7 +12,14 @@ module.exports = {
 			description: '化学专业学生的必备工具'
 		}
 	},
+	head: [
+    ['link', { rel: 'icon', href: `/chemicaltools.png` }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['link', { rel: 'apple-touch-icon', href: `/chemicaltools.png` }],
+    ['meta', { name: 'msapplication-TileImage', content: '/chemicaltools.png' }]
+  ],
 	themuConfig: {
+		editLinks: true,
 		locales: {
 			'/': {
 				selectText: 'Languages',
