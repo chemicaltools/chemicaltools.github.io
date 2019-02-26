@@ -1,5 +1,4 @@
 # Chemical Tools Official Website (化学e+官方网站)
-[![English version](http://wangchujiang.com/sb/lang/english.svg)](https://chem.njzjz.win/) [![Chinese version](https://jaywcjlove.github.io/sb/lang/chinese.svg)](https://chem.njzjz.win/?lang=cn)
 
 Official website for Chemical Tools.
 
@@ -7,13 +6,11 @@ Official website for Chemical Tools.
 
 **Email**: jzzeng@stu.ecnu.edu.cn
 
-[Official Website English version](https://chem.njzjz.win/)
-
-[Official Website Chinese version](https://chem.njzjz.win/?lang=cn)
+[Official Website](https://chem.njzjz.win/)
 
 ## Packages used
-* [Translater.js](https://github.com/jaywcjlove/translater.js)
-* [Tactile theme](https://github.com/jasonlong/tactile-theme)
+
+* [vuepress](https://github.com/vuejs/vuepress)
 
 ## Awards
 * The First Award in 2017 East China Normal University Computer Application Competition (2017年华东师范大学计算机应用能力大赛一等奖)
