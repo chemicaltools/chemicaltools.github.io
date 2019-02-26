@@ -26,7 +26,7 @@ features:
 
 # 用户手册
 
-[点击此处查看](/help.html).
+[点击此处查看](/help.html)。
 
 # 荣誉
 

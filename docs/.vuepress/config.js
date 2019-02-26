@@ -28,6 +28,7 @@ module.exports = {
 				nav: [
 					{ text: 'Home', link: '/' },
 					{ text: 'Download', link: '/#download' },
+					{ text: 'Guide', link: '/help.html' },
 				]
 			},
 			'/zh/': {
