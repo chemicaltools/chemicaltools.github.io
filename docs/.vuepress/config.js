@@ -18,7 +18,7 @@ module.exports = {
     ['link', { rel: 'apple-touch-icon', href: `/chemicaltools.png` }],
     ['meta', { name: 'msapplication-TileImage', content: '/chemicaltools.png' }]
   ],
-	themuConfig: {
+	themeConfig: {
 		editLinks: true,
 		locales: {
 			'/': {
