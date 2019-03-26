@@ -1,7 +1,8 @@
 {
   "scripts":{
 	  "dev":"vuepress dev docs",
-	  "docs:build": "vuepress build docs"
+	  "docs:build": "vuepress build docs",
+	  "now-build": "npm run docs:build"
   },
   "devDependencies": {
     "vuepress": "1.0.0-alpha.44"
