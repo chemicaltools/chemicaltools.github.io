@@ -5,7 +5,7 @@
 	  "now-build": "npm run docs:build && mv docs/.vuepress/dist dist"
   },
   "devDependencies": {
-    "vuepress": "1.0.0-alpha.48"
+    "vuepress": "1.0.0-alpha.49"
   },
   "name": "chemical-tools-page",
   "version": "1.0.0",
