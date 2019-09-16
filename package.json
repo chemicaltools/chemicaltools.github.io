@@ -1,11 +1,11 @@
 {
-  "scripts":{
-	  "dev":"vuepress dev docs",
-	  "docs:build": "vuepress build docs",
-	  "now-build": "npm run docs:build && mv docs/.vuepress/dist dist"
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "now-build": "npm run docs:build && mv docs/.vuepress/dist dist"
   },
   "devDependencies": {
-    "vuepress": "1.0.4"
+    "vuepress": "1.1.0"
   },
   "name": "chemical-tools-page",
   "version": "1.0.0",
