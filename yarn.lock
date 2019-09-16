@@ -810,7 +810,7 @@
     source-map "~0.6.1"
     vue-template-es2015-compiler "^1.9.0"
 
-"@vuepress/core@^1.0.4":
+"@vuepress/core@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@vuepress/core/-/core-1.1.0.tgz#32fd2b65a4613085cbd2b812bf67afe3a037dc65"
   integrity sha512-qC+R9kdTpui9QjQGUXUsmfAbToWOnoYjP2AJqMT/RsKUhQsXAIMe2Z0L/Vw2Z3bmlTUq26v+B1zlFgYzGuyIEQ==
@@ -923,7 +923,7 @@
     semver "^6.0.0"
     upath "^1.1.0"
 
-"@vuepress/theme-default@^1.0.4":
+"@vuepress/theme-default@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@vuepress/theme-default/-/theme-default-1.1.0.tgz#915c97bb69985d6fccd815f829532d67d828e10a"
   integrity sha512-U+kFHakSBEXFAdfItyeCbP//q2hm9R8+vnTFjbMMVgRZ2SHPnDUC/7WWGoEUzfEpFHHPrG1OzC9iI/o5v8p5AQ==
@@ -7087,13 +7087,13 @@ vuepress-plugin-container@^2.0.0:
   dependencies:
     markdown-it-container "^2.0.0"
 
-vuepress@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-1.0.4.tgz#0f02f67ff6dec02fa9c500c39dbe8c8203db87a0"
-  integrity sha512-QzJkRGGOv3+j7MNsjbCLGe5XaAl5fClndQa2woT8j6b+Cc7S1MOHNlITH6zDZ1eH7XETlNI3BmTZ/nJ2aoHyIw==
+vuepress@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-1.1.0.tgz#ca0d787d93188b2fd05820a650d7e3643c9e7675"
+  integrity sha512-LAgS9nXsmvjTuCc/LHPWnIsPOuVuZtxh1MjVZf/xJ3Yy5kXoPhqbGUptlQdQt3izjIlns9zin5K6MNBY3u5l5g==
   dependencies:
-    "@vuepress/core" "^1.0.4"
-    "@vuepress/theme-default" "^1.0.4"
+    "@vuepress/core" "^1.1.0"
+    "@vuepress/theme-default" "^1.1.0"
     cac "^6.3.9"
     envinfo "^7.2.0"
     opencollective-postinstall "^2.0.2"
