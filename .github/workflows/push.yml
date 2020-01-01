@@ -6,14 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: yarn install
-      uses: Borales/actions-yarn@master
+    - uses: actions/setup-node@v1
       with:
-        args: install
-    - name: yarn docs:build
-      uses: Borales/actions-yarn@master
-      with:
-        args: docs:build
+        node-version: 12
+    - run: yarn install
+    - run: yarn docs:build
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@master
       if: github.ref == 'refs/heads/master'
