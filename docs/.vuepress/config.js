@@ -42,5 +42,6 @@ module.exports = {
 				]
 			},
 		}
-	}
+	},
+	'base': 'https://cdn.jsdelivr.net/gh/njzjz/chemicaltools-page@gh-pages/'
 }
