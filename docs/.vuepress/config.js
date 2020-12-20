@@ -13,10 +13,10 @@ module.exports = {
 		}
 	},
 	head: [
-    ['link', { rel: 'icon', href: `/chemicaltools.png` }],
+    ['link', { rel: 'icon', href: `https://cdn.jsdelivr.net/gh/njzjz/chemicaltools-web@ca014bee027fc6f3bff8e64444bf4223f9438348/public/chemicaltools.svg` }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['link', { rel: 'apple-touch-icon', href: `/chemicaltools.png` }],
-    ['meta', { name: 'msapplication-TileImage', content: '/chemicaltools.png' }]
+    ['link', { rel: 'apple-touch-icon', href: `https://cdn.jsdelivr.net/gh/njzjz/chemicaltools-web@ca014bee027fc6f3bff8e64444bf4223f9438348/public/img/icons/apple-touch-icon.png` }],
+    ['meta', { name: 'msapplication-TileImage', content: 'https://cdn.jsdelivr.net/gh/njzjz/chemicaltools-web@ca014bee027fc6f3bff8e64444bf4223f9438348/public/img/icons/apple-touch-icon.png' }]
   ],
 	themeConfig: {
 		editLinks: true,
