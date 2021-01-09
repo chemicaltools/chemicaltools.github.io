@@ -1,20 +1,94 @@
-on: push
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - v*
+  pull_request_target:
 name: Build and deploy on push
 jobs:
-  yarnInstall:
+  build:
     name: yarn install
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: actions/setup-node@v1
+      if: github.event_name == 'push'
+    - uses: actions/checkout@v2
+      if: github.event_name == 'pull_request_target'
+      with:
+        ref: ${{github.event.pull_request.head.ref}}
+        repository: ${{github.event.pull_request.head.repo.full_name}}
+    - uses: actions/setup-node@v2
       with:
         node-version: 14
+    - name: Get yarn cache
+      id: yarn-cache
+      run: echo "::set-output name=dir::$(yarn cache dir)"
+    - uses: actions/cache@v2
+      with:
+        path: ${{ steps.yarn-cache.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-yarn-
     - run: yarn install
-    - run: yarn docs:build
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@master
-      if: github.ref == 'refs/heads/master'
+    - run: yarn build
       env:
-        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        CDN_COMMIT: gh-pages
+    - run: yarn exec semantic-release
+      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
         FOLDER: docs/.vuepress/dist
+        BASE_BRANCH: master
+        CLEAN: true
+    - name: Vercel Action
+      uses: amondnet/vercel-action@master
+      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+      with:
+        vercel-token: ${{ secrets.VERCEL_TOKEN }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        vercel-org-id: ${{ secrets.ORG_ID }}
+        vercel-project-id: ${{ secrets.PROJECT_ID }}
+        vercel-args: '--prod'
+        working-directory: dist
+  deploy_test:
+    name: test on Vercel
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request_target'
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{github.event.pull_request.head.ref}}
+          repository: ${{github.event.pull_request.head.repo.full_name}}
+      - name: Vercel Action
+        uses: amondnet/vercel-action@master
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id: ${{ secrets.ORG_ID }}
+          vercel-project-id: ${{ secrets.PROJECT_ID }}
+  purge:
+    name: purge cloudflare caches
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    needs: [build]
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: 'gh-pages'
+        fetch-depth: 2
+    - name: cachepurger
+      uses: njzjz/cachepurger@index
+      with:
+        url-prefix: 'https://chem.njzjz.win/'
+        zone-id: ${{ secrets.CLOUDFLAREZONEID }}
+        api-token: ${{ secrets.CLOUDFLAREAPITOKEN }}
+        from-commit: 'HEAD~1'
+        to-commit: 'HEAD'
