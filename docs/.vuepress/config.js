@@ -43,5 +43,5 @@ module.exports = {
 			},
 		}
 	},
-	'base': 'https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools-page@gh-pages/'
+	'base': process.env.CDN_COMMIT ? `//cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@${process.env.CDN_COMMIT}/` : './',
 }
