@@ -43,6 +43,5 @@ module.exports = {
 			},
 		}
 	},
-	'configureWebpack': 
 	'base': process.env.CDN_COMMIT ? `https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@${process.env.CDN_COMMIT}/` : './',
 }
