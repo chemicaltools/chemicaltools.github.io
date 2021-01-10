@@ -43,5 +43,5 @@ module.exports = {
 			},
 		}
 	},
-	'base': 'https://cdn.jsdelivr.net/gh/njzjz/chemicaltools-page@gh-pages/'
+	'base': 'https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools-page@gh-pages/'
 }
