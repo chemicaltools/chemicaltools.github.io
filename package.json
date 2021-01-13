@@ -1,16 +1,19 @@
 {
-  "scripts":{
-	  "dev":"vuepress dev docs",
-	  "docs:build": "vuepress build docs",
-	  "now-build": "npm run docs:build && mv docs/.vuepress/dist dist"
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "now-build": "npm run docs:build && mv docs/.vuepress/dist dist"
   },
   "devDependencies": {
-    "vuepress": "1.8.0"
+    "@vuepress/plugin-pwa": "^1.8.0",
+    "vuepress": "1.8.0",
+    "vuepress-plugin-jsdelivr-cdn": "^0.0.8"
   },
   "name": "chemical-tools-page",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/njzjz/chemical-tools-page",
   "author": "Jinzhe Zeng <njzjz@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
