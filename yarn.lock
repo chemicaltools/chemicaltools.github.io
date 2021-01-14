@@ -1156,7 +1156,7 @@
   dependencies:
     nprogress "^0.2.0"
 
-"@vuepress/plugin-pwa@^1.8.0":
+"@vuepress/plugin-pwa@1.8.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-pwa/-/plugin-pwa-1.8.0.tgz#e3baa9a83828cd3d538825a5b52db3c217b2f220"
   integrity sha512-wdXSi5ZNMFqIJ6uAazP6xYObrjHk4Mfez84ImZQ68zzeLw9eI8f8WfWvRW7PCRxBa3V95WIGDRcz0MZJ0JzHCg==
@@ -7720,7 +7720,7 @@ vuepress-plugin-container@^2.0.2:
     "@vuepress/shared-utils" "^1.2.0"
     markdown-it-container "^2.0.0"
 
-vuepress-plugin-jsdelivr-cdn@^0.0.8:
+vuepress-plugin-jsdelivr-cdn@0.0.8:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-jsdelivr-cdn/-/vuepress-plugin-jsdelivr-cdn-0.0.8.tgz#41f94201bca213e37260fdfae68615b8da6204ca"
   integrity sha512-HorvJJXfLXMeeciURM+4II5AwkWriTJxZ5yY/Z1c+GKAPJaT8RrXCdpQuf3p4W4vuX1hPThLyIn/txIJK5tyjA==
