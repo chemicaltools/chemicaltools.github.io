@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "5815aca18b97444f2d4b536ff80d3c48"
+    "revision": "82e22f7c13f18f90e29ac878ab8514f4"
   },
   {
     "url": "assets/css/0.styles.57609e9c.css",
@@ -78,8 +78,8 @@ self.__precacheManifest = [
     "revision": "f22325de42ea54ebc74357afd81f4221"
   },
   {
-    "url": "assets/js/app.33dbb54a.js",
-    "revision": "e87259a0e59b65729a2b800323c6c26c"
+    "url": "assets/js/app.6dd93d79.js",
+    "revision": "6fe0afead848c9cbd8622780b8a73fae"
   },
   {
     "url": "help.files/image001.png",
@@ -227,15 +227,15 @@ self.__precacheManifest = [
   },
   {
     "url": "help.html",
-    "revision": "7ac032cd17582f25c0ae7b5a3345a376"
+    "revision": "dcfa3c6b455c13b69321474645932fc0"
   },
   {
     "url": "index.html",
-    "revision": "cb05e6dc770c7428d7a0fbbd9c758d91"
+    "revision": "e3ebe66864d025b582e1409ee1a892cb"
   },
   {
     "url": "zh/index.html",
-    "revision": "e1bee344d61dc55e7b59b783e2e6c4be"
+    "revision": "6184f5108aa5fff866d792c37578dcbe"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
