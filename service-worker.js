@@ -11,7 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("workbox-v4.3.1/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "workbox-v4.3.1"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
@@ -27,7 +28,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "86bb7ed1ffcc46382cc202cfa6bc136f"
+    "revision": "cfff02a073162bf66a0666a670444da2"
   },
   {
     "url": "assets/css/0.styles.ee1c9ca2.css",
@@ -78,8 +79,8 @@ self.__precacheManifest = [
     "revision": "f22325de42ea54ebc74357afd81f4221"
   },
   {
-    "url": "assets/js/app.8a7acdf7.js",
-    "revision": "1b1d2293181a508f2d373f6ebfb04905"
+    "url": "assets/js/app.9ed4d610.js",
+    "revision": "78a5c52cc09be668834f766740886b11"
   },
   {
     "url": "help.files/image001.png",
@@ -227,15 +228,15 @@ self.__precacheManifest = [
   },
   {
     "url": "help.html",
-    "revision": "1726919c44b8465844c3b91628fa0f28"
+    "revision": "eb3ca8fed253c7d7ef7ed1ce1682bb7e"
   },
   {
     "url": "index.html",
-    "revision": "a72ce7db4049cfd8fcedbfd8ed5fdb8b"
+    "revision": "38c6e210ec3eff60def1e16c16618d1c"
   },
   {
     "url": "zh/index.html",
-    "revision": "6bb4bb76f1f9c6ddd0e353ca2a570fe0"
+    "revision": "1ec70202483f910a540b7acaadad498d"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
