@@ -20,12 +20,13 @@ module.exports = {
   ],
 	themeConfig: {
 		editLinks: true,
+		logo: `https://cdn.jsdelivr.net/gh/njzjz/chemicaltools-web@ca014bee027fc6f3bff8e64444bf4223f9438348/public/chemicaltools.svg`,
 		locales: {
 			'/': {
 				selectText: 'Languages',
 				label: 'English',
 				editLinkText: 'Edit this page on GitHub',
-				nav: [
+				navbar: [
 					{ text: 'Home', link: '/' },
 					{ text: 'Download', link: '/#download' },
 					{ text: 'Guide', link: '/help.html' },
@@ -35,7 +36,7 @@ module.exports = {
 				selectText: '语言',
 				label: '中文',
 				editLinkText: '在 GitHub 上编辑此页',
-				nav: [
+				navbar: [
 					{ text: '主页', link: '/zh/' },
 					{ text: '下载', link: '/zh/#download' },
 					{ text: '用户手册', link: '/help.html' },
