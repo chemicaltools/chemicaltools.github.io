@@ -7722,7 +7722,7 @@ vuepress-plugin-container@^2.0.2:
 
 "vuepress-plugin-jsdelivr-cdn@https://github.com/njzjz/vuepress-plugin-jsdelivr-cdn#base":
   version "0.0.6"
-  resolved "https://github.com/njzjz/vuepress-plugin-jsdelivr-cdn#7f546ec36ee1a1a000598bc726d178209a04db4e"
+  resolved "https://github.com/njzjz/vuepress-plugin-jsdelivr-cdn#8e27bf104f8691afd1d98485c8b4d761159bb88f"
   dependencies:
     node-html-parser "1.2.16"
 
