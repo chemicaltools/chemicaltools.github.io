@@ -33,8 +33,9 @@ module.exports = {
 				]
 			},
 			'/zh/': {
-				selectText: '语言',
-				label: '中文',
+				selectLanguageText: '语言',
+				selectLanguageAriaLabel: '语言',
+				selectLanguageName: '中文',
 				editLinkText: '在 GitHub 上编辑此页',
 				navbar: [
 					{ text: '主页', link: '/zh/' },
