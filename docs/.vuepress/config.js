@@ -43,14 +43,14 @@ module.exports = {
 			},
 		}
 	},
-	plugins: {
-      '@vuepress/pwa':{
+	plugins: [
+      ['@vuepress/pwa', {
         updatePopup: true,
 		generateSWConfig: {
 		  importWorkboxFrom: 'local'
 		}
-	  },
-	},
+	  ],
+	],
 	configureWebpack: {
 	  output: {
 		publicPath: process.env.CDN_COMMIT ? `https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@${process.env.CDN_COMMIT}/`: "/",
