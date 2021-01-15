@@ -45,10 +45,6 @@ module.exports = {
 	},
 	plugins: [
       ['@vuepress/pwa', {
-        updatePopup: true,
-		generateSWConfig: {
-		  importWorkboxFrom: 'local'
-		}
 	  }],
 	],
 	configureWebpack: {
