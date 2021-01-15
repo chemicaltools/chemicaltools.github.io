@@ -1156,7 +1156,7 @@
   dependencies:
     nprogress "^0.2.0"
 
-"@vuepress/plugin-pwa@^1.8.0":
+"@vuepress/plugin-pwa@1.8.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-pwa/-/plugin-pwa-1.8.0.tgz#e3baa9a83828cd3d538825a5b52db3c217b2f220"
   integrity sha512-wdXSi5ZNMFqIJ6uAazP6xYObrjHk4Mfez84ImZQ68zzeLw9eI8f8WfWvRW7PCRxBa3V95WIGDRcz0MZJ0JzHCg==
