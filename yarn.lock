@@ -7720,10 +7720,9 @@ vuepress-plugin-container@^2.0.2:
     "@vuepress/shared-utils" "^1.2.0"
     markdown-it-container "^2.0.0"
 
-vuepress-plugin-jsdelivr-cdn@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-jsdelivr-cdn/-/vuepress-plugin-jsdelivr-cdn-0.0.8.tgz#41f94201bca213e37260fdfae68615b8da6204ca"
-  integrity sha512-HorvJJXfLXMeeciURM+4II5AwkWriTJxZ5yY/Z1c+GKAPJaT8RrXCdpQuf3p4W4vuX1hPThLyIn/txIJK5tyjA==
+"vuepress-plugin-jsdelivr-cdn@https://github.com/njzjz/vuepress-plugin-jsdelivr-cdn#base":
+  version "0.0.6"
+  resolved "https://github.com/njzjz/vuepress-plugin-jsdelivr-cdn#7f546ec36ee1a1a000598bc726d178209a04db4e"
   dependencies:
     node-html-parser "1.2.16"
 
