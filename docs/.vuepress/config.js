@@ -49,7 +49,7 @@ module.exports = {
 		generateSWConfig: {
 		  importWorkboxFrom: 'local'
 		}
-	  ],
+	  }],
 	],
 	configureWebpack: {
 	  output: {
