@@ -50,10 +50,11 @@ module.exports = {
 	  }],
 	],
 	bundlerConfig:{
-	  configureWebpack: {
-	    output: {
-		  publicPath: process.env.CDN_COMMIT ? `https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@${process.env.CDN_COMMIT}/`: "/",
-	    }
+	  configureWebpack: (webpackConfig, isServer, isBuild) => {
+	    return {
+		  output: {
+		    publicPath: process.env.CDN_COMMIT ? `https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@${process.env.CDN_COMMIT}/`: "/",
+	    }}
 	  }
 	}
 }
