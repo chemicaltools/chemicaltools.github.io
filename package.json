@@ -7,7 +7,7 @@
   "devDependencies": {
     "@vuepress/plugin-pwa": "^2.0.0-alpha.17",
     "vuepress": "^2.0.0-alpha.17",
-    "vuepress-plugin-jsdelivr-cdn": "^0.0.8"
+    "vuepress-plugin-jsdelivr-cdn": "https://github.com/njzjz/vuepress-plugin-jsdelivr-cdn#next"
   },
   "name": "chemical-tools-page",
   "version": "1.0.0",
