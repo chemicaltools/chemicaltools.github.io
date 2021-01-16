@@ -3,11 +3,11 @@ sidebar: auto
 ---
 # 化学e+ Version 1.7
 
-![homepage](/help.files/image019.gif)
+![homepage](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image019.gif)
 
 # 用户使用手册
 
-![2](/help.files/image020.jpg)
+![2](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image020.jpg)
 
 华东师范大学
 
@@ -81,29 +81,29 @@ sidebar: auto
 
   下面依次显示不同平台的界面显示图：
 
-  ![QQ截图20170305053958](/help.files/image021.jpg)
+  ![QQ截图20170305053958](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image021.jpg)
 
   化学e+（Windows版）截图
 
-  ![](/help.files/image022.jpg)
+  ![](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image022.jpg)
 
   化学e+（Android版）截图
 
-  ![](/help.files/image023.jpg)
+  ![](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image023.jpg)
 
   化学e+（iOS版）截图
 
-  ![QQ截图20170305054216](/help.files/image024.jpg)
+  ![QQ截图20170305054216](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image024.jpg)
 
   化学e+（网页版）电脑端截图
 
-  ![](/help.files/image025.gif)
+  ![](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image025.gif)
 
   化学e+（网页版）移动端截图
 
 ### 2.1.1. 首页
 
-![](/help.files/image026.gif)
+![](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image026.gif)
 
 Android客户端主页面默认显示的是首页信息。系统按默认主题将当前用户可使用的功能按模块分类罗列出来，用户可以选择所需的功能使用，同时在界面下方依次显示了上次功能使用的记录。用户可点击相应功能标题进入该功能所在的模块。触击右上角的左侧图标设置了当前常用社交软件的分享，右侧图标涵盖设置、反馈、关于等操作；触击左上角的图标亦可显示该应用的所有内容。
 
@@ -113,61 +113,61 @@ Android客户端主页面默认显示的是首页信息。系统按默认主题�
 
 l **你知道吗？**
 
-![](/help.files/image027.jpg)
+![](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image027.jpg)
 
 点击【分享】可以把该条内容分享到常用的社交软件上，点击【换一个】可以查看下一条。
 
 * **元素查询**
 
-**![Screenshot_2017-03-20-19-05-11-464_com](/help.files/image028.jpg)**
+**![Screenshot_2017-03-20-19-05-11-464_com](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image028.jpg)**
 
 点击【打开】后进入元素查询功能的界面，在输入栏中输入元素的“名称”、“符号”、“原子序数”等信息可以得到该元素的“名称”、“符号”、“IUPAC名”、“相对原子质量”和“元素名称含义”等信息。
 
 * **质量计算**
 
-**![](/help.files/image029.gif)**
+**![](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image029.gif)**
 
 点击【打开】后进入质量计算功能的界面，在输入栏中输入所需计算的分子式，点击【计算】按钮后，下方出现该分子式的“相对分子质量”，以及分子式中各元素原子的个数、每类原子的“相对原子质量”以及该元素在该分子式中占的质量百分比。
 
 * **酸碱计算**
 
-**![](/help.files/image030.gif)**
+**![](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image030.gif)**
 
 点击【打开】进入酸碱计算功能的模块界面，左上方的按钮可以调解计算酸或计算碱，第一个下拉框中涵盖了常见的算或碱，第二个输入栏中显示了该酸或碱的电离常数，在下方的输入栏中输入分析浓度后，点击【计算】即可得到结果；亦可手动输入新的酸或碱，并输入它们的电离常数，得到结果。结果首先给出了已知条件，显示溶液中主要离子的浓度，结果使用科学计数法并保留两位小数。
 
 * **气体计算**
 
-![](/help.files/image031.jpg)
+![](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image031.jpg)
 
 点击【打开】进入气体计算界面，基于克拉伯龙方程，给出压强（P）、体积（V）、摩尔数（n）、温度（T）中任意三个，即可得到未知的结果。
 
 * **元素记忆**
 
-![](/help.files/image032.jpg)
+![](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image032.jpg)
 
 点击【打开】进入元素记忆功能模块，给出一道题目。如图所示，给出了元素符号，在下方给出四个英文选项，用户可触击自己选择的答案，并由系统反馈正确与否，最下方还会显示用户当前答题数、正确数以及正确率。
 
 * **排行榜**
 
-**![Screenshot_2017-03-20-19-47-28-864_com](/help.files/image033.jpg)**
+**![Screenshot_2017-03-20-19-47-28-864_com](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image033.jpg)**
 
 点击元素记忆模块的右上角的符号，可选择进入【排行榜】。在排行榜中，显示了所有联网注册用户的用户名、正确答题数以及排名。
 
 * **偏差计算**
 
-![](/help.files/image034.jpg)
+![](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image034.jpg)
 
 点击【打开】进入偏差计算功能界面，在输入栏内用户可以输入需要计算偏差的所有数据。下方结果给出“平均数”、“平均偏差”、“相对平均偏差”以及“标准偏差”等四类信息。
 
 ### 2.1.3. 登录/注册界面
 
-![Screenshot_2017-03-20-19-55-49-773_com](/help.files/image035.jpg)
+![Screenshot_2017-03-20-19-55-49-773_com](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image035.jpg)
 
 登录/注册界面十分简洁明了，支持邮箱注册与登录的模式。
 
 ### 2.1.4. 设置界面
 
-![Screenshot_2017-03-20-20-00-15-119_com](/help.files/image036.jpg)
+![Screenshot_2017-03-20-20-00-15-119_com](https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@f6a9ec960f6d21bbdc5b8e38b4ba9a4931a0ddca/docs/.vuepress/public/help.files/image036.jpg)
 
 设置界面内容丰富，除了常规的登录、注册的管理，还有元素记忆模块的测试模式更改与测试的原子序数范围，亦可更改酸碱计算中的电离常数积值，还可以清空数据、更新应用。
 
