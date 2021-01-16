@@ -48,6 +48,9 @@ module.exports = {
 	plugins: [
       ['@vuepress/pwa', {
 	  }],
+	  ['vuepress-plugin-jsdelivr-cdn',{
+        cdn: process.env.CDN_COMMIT ? `https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@${process.env.CDN_COMMIT}/`: "/",
+	  }]
 	],
 	bundlerConfig:{
 	  configureWebpack: (webpackConfig, isServer, isBuild) => {
