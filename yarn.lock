@@ -1341,7 +1341,7 @@
     "@vuepress/core" "2.0.0-alpha.17"
     "@vuepress/utils" "2.0.0-alpha.15"
 
-"@vuepress/plugin-pwa@^2.0.0-alpha.17":
+"@vuepress/plugin-pwa@2.0.0-alpha.17":
   version "2.0.0-alpha.17"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-pwa/-/plugin-pwa-2.0.0-alpha.17.tgz#017fc997f0fad339905a243babaf40aa100b6fa4"
   integrity sha512-smUY9nl4NN/H2/lHMaHFmtr3pReDPf4dpZXwFrPzLZqd5b5eJcaCumPV//xHGArsjIqWAdSM4sUq6gDJYSiqtw==
@@ -5134,7 +5134,7 @@ vue@^3.0.4:
     "@vuepress/utils" "^2.0.0-alpha.15"
     node-html-parser "1.2.16"
 
-vuepress@^2.0.0-alpha.17:
+vuepress@2.0.0-alpha.17:
   version "2.0.0-alpha.17"
   resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-2.0.0-alpha.17.tgz#d1fb2b2b6f0af42419614a5f7bf1e27f828bb70d"
   integrity sha512-exU/Svm5GbwcMvXAMMEsW58xSQsGcQnWi6pfjbo8PGYQ9cFJoAQ4v3rLUS5BkUOQIZF2fTZ/gMKJx/l+gUzxiA==
