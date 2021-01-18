@@ -4,20 +4,16 @@ on:
       - master
     tags:
       - v*
+  pull_request:
   pull_request_target:
 name: Build and deploy on push
 jobs:
   build:
     name: yarn install
     runs-on: ubuntu-latest
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
     steps:
     - uses: actions/checkout@master
-      if: github.event_name == 'push'
-    - uses: actions/checkout@v2
-      if: github.event_name == 'pull_request_target'
-      with:
-        ref: ${{github.event.pull_request.head.ref}}
-        repository: ${{github.event.pull_request.head.repo.full_name}}
     - uses: actions/setup-node@v2
       with:
         node-version: 14
@@ -32,11 +28,8 @@ jobs:
           ${{ runner.os }}-yarn-
     - run: yarn install
     - run: yarn docs:build
-      if: github.event_name == 'push' && github.ref == 'refs/heads/master'
       env:
         CDN_COMMIT: gh-pages
-    - run: yarn docs:build
-      if: github.event_name == 'pull_request_target'
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       if: github.event_name == 'push' && github.ref == 'refs/heads/master'
@@ -56,9 +49,17 @@ jobs:
         vercel-project-id: ${{ secrets.PROJECT_ID }}
         vercel-args: '--prod'
         working-directory: docs/.vuepress/dist
+  deploy_test:
+    name: deploy test
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request_target'
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{github.event.pull_request.head.ref}}
+        repository: ${{github.event.pull_request.head.repo.full_name}}
     - name: Vercel Action
       uses: amondnet/vercel-action@master
-      if: github.event_name == 'pull_request_target'
       with:
         vercel-token: ${{ secrets.VERCEL_TOKEN }}
         github-token: ${{ secrets.GITHUB_TOKEN }}
