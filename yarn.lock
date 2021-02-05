@@ -1285,10 +1285,10 @@
     markdown-it "^12.0.4"
     markdown-it-container "^3.0.0"
 
-"@vuepress/plugin-git@2.0.0-alpha.20":
-  version "2.0.0-alpha.20"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-git/-/plugin-git-2.0.0-alpha.20.tgz#33aa796000d0550d550418f8a0797235239faddb"
-  integrity sha512-Pk9sAoY1Vp4zbC/JEvCPM2H/aDhJ5yw9qWnYzfdkDf1Y7U7bmkSz9IlgiqqEhR3WLZa6QfE72PP7afBLsXOb8g==
+"@vuepress/plugin-git@2.0.0-alpha.21":
+  version "2.0.0-alpha.21"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-git/-/plugin-git-2.0.0-alpha.21.tgz#3f1272ec2e5dec1e5b8f6319f1ae754c0ae9416f"
+  integrity sha512-3CkUg5xU9NaUCD58i6CGFstBSECKTui2WLdr7nhzMe/XG+VFJGYD6/oBcL98Smytnke4emJiL/lawJAu82H4sQ==
   dependencies:
     "@vuepress/core" "2.0.0-alpha.20"
     execa "^4.1.0"
@@ -1351,17 +1351,17 @@
   dependencies:
     "@vue/shared" "^3.0.5"
 
-"@vuepress/theme-default@2.0.0-alpha.20":
-  version "2.0.0-alpha.20"
-  resolved "https://registry.yarnpkg.com/@vuepress/theme-default/-/theme-default-2.0.0-alpha.20.tgz#c9f38ec6cdc6b2b4a65235fb5b9f07970bd5f004"
-  integrity sha512-URx3Ku6EUG9Y177Lnpj5Czi1JkwFRNzRk83gaVk6m4MF92bPROtak6Shso7QqQNyqv6Oc2aOz6eTaqv+SzmvSQ==
+"@vuepress/theme-default@2.0.0-alpha.21":
+  version "2.0.0-alpha.21"
+  resolved "https://registry.yarnpkg.com/@vuepress/theme-default/-/theme-default-2.0.0-alpha.21.tgz#3f1d513a5cc75ab1352fd63ad7fedfcf541a0c5e"
+  integrity sha512-woBMjciXhVhq2VoXzoQ1wqZe2qeXdVvmGXgrKnd1FYmqISpGrc6cXoKHg6S8+jpHhIrmEH0ZLNweUCxKL8aBQg==
   dependencies:
     "@vuepress/client" "2.0.0-alpha.20"
     "@vuepress/core" "2.0.0-alpha.20"
     "@vuepress/plugin-active-header-links" "2.0.0-alpha.20"
     "@vuepress/plugin-back-to-top" "2.0.0-alpha.20"
     "@vuepress/plugin-container" "2.0.0-alpha.20"
-    "@vuepress/plugin-git" "2.0.0-alpha.20"
+    "@vuepress/plugin-git" "2.0.0-alpha.21"
     "@vuepress/plugin-medium-zoom" "2.0.0-alpha.20"
     "@vuepress/plugin-nprogress" "2.0.0-alpha.20"
     "@vuepress/plugin-palette-stylus" "2.0.0-alpha.20"
@@ -5116,15 +5116,15 @@ vue@^3.0.5:
     "@vuepress/utils" "^2.0.0-alpha.15"
     node-html-parser "1.2.16"
 
-vuepress@2.0.0-alpha.20:
-  version "2.0.0-alpha.20"
-  resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-2.0.0-alpha.20.tgz#245f96b7c1b707bae11d6eaf7d3b1db5c0d9b392"
-  integrity sha512-qy4Smz2Xe0iLYgr/y6fl5f/jO0eZ4bOUDZIp3GpAkgSN08dU6mwfo8voKrFlY2NkxanMf1xjs11ffL1p8dBVNg==
+vuepress@2.0.0-alpha.21:
+  version "2.0.0-alpha.21"
+  resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-2.0.0-alpha.21.tgz#2bd287bcbf37f627318ae2614c7f0693326b3f31"
+  integrity sha512-Ys2uKx8nw6FHMnapzTyvbSEN7WSy1s9rxeKRKe0/Dv6PvEbWD5GtGuB4UBPP6XAXhDWfREu/oS+Gc2Jg3kpBzA==
   dependencies:
     "@vuepress/bundler-webpack" "2.0.0-alpha.20"
     "@vuepress/cli" "2.0.0-alpha.20"
     "@vuepress/core" "2.0.0-alpha.20"
-    "@vuepress/theme-default" "2.0.0-alpha.20"
+    "@vuepress/theme-default" "2.0.0-alpha.21"
 
 watchpack@^2.0.0:
   version "2.1.0"
