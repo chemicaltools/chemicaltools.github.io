@@ -1,7 +1,7 @@
 # Chemical Tools Official Website (化学e+官方网站)
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/njzjz/Chemical-Tools-page.svg)](https://greenkeeper.io/)
-
+[![up](https://img.shields.io/website-up-down-green-red/https/chemicaltools.njzjz.win.svg?style=flat)](https://chemicaltools.njzjz.win)
+[![jsDelivr hits](https://data.jsdelivr.com/v1/package/gh/chemicaltools/chemicaltools.github.io/badge/all?style=rounded)](https://www.jsdelivr.com/package/gh/chemicaltools/chemicaltools.github.io)
 
 Official website for Chemical Tools.
 
@@ -10,10 +10,6 @@ Official website for Chemical Tools.
 **Email**: jzzeng@stu.ecnu.edu.cn
 
 [Official Website](https://chem.njzjz.win/)
-
-## Packages used
-
-* [vuepress](https://github.com/vuejs/vuepress)
 
 ## Awards
 * The First Award in 2017 East China Normal University Computer Application Competition (2017年华东师范大学计算机应用能力大赛一等奖)
