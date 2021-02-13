@@ -5,8 +5,8 @@
     "now-build": "npm run docs:build && mv docs/.vuepress/dist dist"
   },
   "devDependencies": {
-    "@vuepress/plugin-pwa": "2.0.0-alpha.23",
-    "vuepress": "2.0.0-alpha.23",
+    "@vuepress/plugin-pwa": "2.0.0-alpha.24",
+    "vuepress": "2.0.0-alpha.24",
     "vuepress-plugin-jsdelivr-cdn": "https://github.com/njzjz/vuepress-plugin-jsdelivr-cdn#next"
   },
   "name": "chemical-tools-page",
