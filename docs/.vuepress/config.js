@@ -56,6 +56,8 @@ module.exports = {
 	  configureWebpack: (webpackConfig, isServer, isBuild) => {
 	    return {
 		  output: {
+                    filename: '[name].[contenthash].js',
+                    chunkFilename: '[name].[contenthash].js',
 		    publicPath: process.env.CDN_COMMIT ? `https://cdn.jsdelivr.net/gh/chemicaltools/chemicaltools.github.io@${process.env.CDN_COMMIT}/`: "/",
 	    }}
 	  }
