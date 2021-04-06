@@ -16,6 +16,7 @@
   "author": "Jinzhe Zeng <njzjz@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "jsdelivr_url": "0.0.1"
+    "jsdelivr_url": "0.0.1",
+    "vuepress-plugin-html-minify": "^1.0.5"
   }
 }
