@@ -15,5 +15,7 @@
   "repository": "https://github.com/njzjz/chemical-tools-page",
   "author": "Jinzhe Zeng <njzjz@qq.com>",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "jsdelivr_url": "0.0.1"
+  }
 }

@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://cdn.jsdelivr.net/gh/njzjz/chemicaltools-web@ca014bee027fc6f3bff8e64444bf4223f9438348/public/chemicaltools.svg
+heroImage: https://cdn.jsdelivr.net/npm/chemicaltools-web@3.1.176/public/chemicaltools.svg
 heroText: 化学e+
 tagline: 化学专业学生的必备工具
 actionText: 尝试在线版！

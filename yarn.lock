@@ -3355,6 +3355,11 @@ js-yaml@^3.11.0:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
+jsdelivr_url@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/jsdelivr_url/-/jsdelivr_url-0.0.1.tgz#3a9c0440575ec092d88b403091b8b68d2c0df755"
+  integrity sha512-HjjyhWU8kG1Q1JsFf6D7wNF0REqUA8CMiBHHl0w5RW5uLVgdLK5UxzW5rwmorP8vxLNiNo3rjr+E4cpFb5gI/g==
+
 jsesc@^2.5.1:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-2.5.2.tgz#80564d2e483dacf6e8ef209650a67df3f0c283a4"
@@ -5037,7 +5042,6 @@ vue@^3.0.7:
 
 "vuepress-plugin-jsdelivr-cdn@https://github.com/njzjz/vuepress-plugin-jsdelivr-cdn#next":
   version "0.0.6"
-  uid f4fc6ad229532ac8449882fb7e757e58542920d7
   resolved "https://github.com/njzjz/vuepress-plugin-jsdelivr-cdn#f4fc6ad229532ac8449882fb7e757e58542920d7"
   dependencies:
     "@vuepress/utils" "^2.0.0-alpha.15"
