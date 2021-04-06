@@ -1,6 +1,6 @@
 // .vuepress/config.js
 const { gh_url, npm_url } = require("jsdelivr_url");
-const cdn_url = process.env.CDN_COMMIT ? gh_url('chemicaltools', 'chemicaltools.github.io', process.env.CDN_COMMIT): "/";
+const cdn_url = process.env.CDN_COMMIT ? gh_url('chemicaltools', 'chemicaltools.github.io', process.env.CDN_COMMIT, ""): "/";
 const svg_icon = npm_url('chemicaltools-web', '3.1.176', 'public/chemicaltools.svg');
 const png_icon = npm_url('chemicaltools-web', '3.1.176', 'public/img/icons/apple-touch-icon.png');
 
