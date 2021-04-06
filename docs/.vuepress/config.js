@@ -55,7 +55,8 @@ module.exports = {
 	  }],
 	  ['vuepress-plugin-jsdelivr-cdn',{
         cdn: cdn_url,
-	  }]
+	  }],
+	  ['vuepress-plugin-html-minify', {}],
 	],
 	bundlerConfig:{
 	  configureWebpack: (webpackConfig, isServer, isBuild) => {
