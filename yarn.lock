@@ -1451,17 +1451,17 @@
     upath "^2.0.1"
 
 "@vueuse/core@^6.0.0-beta.3":
-  version "6.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-6.0.0-beta.3.tgz#6d0c8bd7f41b91ef02d2b21d9370ce0b005a4452"
-  integrity sha512-SIf3xR85GuZ6a7/XNf+Qr1ejQisOIDusRXis7gWLKr6f5zoaV3BWE3gjgrFZo1m9hlPLZG5y39IKfN+lvFr4Ug==
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-6.0.0.tgz#ebb6ad380682adc6c7d6c3be4f3e4003543845fd"
+  integrity sha512-PuBfNo/Zv+NkLcZaYWBA1WjqxQhTDC0DMQpoAIJdo/GFul/1SpBbONhUho2zqtOmq8vyGuK200wNFvyA4YUAMg==
   dependencies:
-    "@vueuse/shared" "6.0.0-beta.3"
+    "@vueuse/shared" "6.0.0"
     vue-demi "*"
 
-"@vueuse/shared@6.0.0-beta.3":
-  version "6.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-6.0.0-beta.3.tgz#2e52a1e573983d3b806054948b0eca01ced7c504"
-  integrity sha512-afl4y1UhtmXUUEMolMUeqS20UgzIJJRLCJNtGUU7rCRylxnWfpGKc9aVDPhc5cHM5Aa/eStKQeSwjsVL3HRgVQ==
+"@vueuse/shared@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-6.0.0.tgz#e6b8804541a1853615db3dd869d07653b244451f"
+  integrity sha512-PLjjqL8bxI5q86qk/ifXy572nfQE3rJc1RMem+dKcGayaagMnC4kXHEt64V98DVielSwr2FuYaeFodi4KJrvdg==
   dependencies:
     vue-demi "*"
 
