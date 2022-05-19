@@ -6,8 +6,7 @@
   },
   "devDependencies": {
     "@vuepress/plugin-pwa": "2.0.0-beta.45",
-    "vuepress": "2.0.0-beta.45",
-    "vuepress-plugin-jsdelivr-cdn": "https://github.com/njzjz/vuepress-plugin-jsdelivr-cdn#next"
+    "vuepress": "2.0.0-beta.45"
   },
   "name": "chemical-tools-page",
   "version": "1.0.0",
@@ -16,6 +15,6 @@
   "author": "Jinzhe Zeng <njzjz@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "jsdelivr_url": "0.0.1"
+    "unpkg_url": "^0.0.1"
   }
 }

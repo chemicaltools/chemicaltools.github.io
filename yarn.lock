@@ -1373,7 +1373,7 @@
     vue "^3.2.33"
     vue-router "^4.0.15"
 
-"@vuepress/utils@2.0.0-beta.45", "@vuepress/utils@^2.0.0-alpha.15":
+"@vuepress/utils@2.0.0-beta.45":
   version "2.0.0-beta.45"
   resolved "https://registry.yarnpkg.com/@vuepress/utils/-/utils-2.0.0-beta.45.tgz#ae5c36d3aa5ef7fc0ccbb9758ecda079df15e04e"
   integrity sha512-vdhRs+Q3tuJiznQ3Vlckumpciv7uKm6kTcqkAInZJdtpa/vS+SAeeS3q8ThERC0I7z1mnW/s/CGkVlLKhrfjKA==
@@ -2239,11 +2239,6 @@ hash-sum@^2.0.0:
   resolved "https://registry.yarnpkg.com/hash-sum/-/hash-sum-2.0.0.tgz#81d01bb5de8ea4a214ad5d6ead1b523460b0b45a"
   integrity sha512-WdZTbAByD+pHfl/g9QSsBIIwy8IT+EsPiKDs0KNX+zSHhdDLFKdZu0BQHljvO+0QI/BasbMSUa8wYNCZTvhslg==
 
-he@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
-  integrity sha1-k0EP0hsAlzUVH4howvJx80J+I/0=
-
 human-signals@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
@@ -2469,11 +2464,6 @@ js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-jsdelivr_url@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/jsdelivr_url/-/jsdelivr_url-0.0.1.tgz#3a9c0440575ec092d88b403091b8b68d2c0df755"
-  integrity sha512-HjjyhWU8kG1Q1JsFf6D7wNF0REqUA8CMiBHHl0w5RW5uLVgdLK5UxzW5rwmorP8vxLNiNo3rjr+E4cpFb5gI/g==
-
 jsesc@^2.5.1:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-2.5.2.tgz#80564d2e483dacf6e8ef209650a67df3f0c283a4"
@@ -2647,13 +2637,6 @@ nanoid@^3.3.3:
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
   integrity sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==
-
-node-html-parser@1.2.16:
-  version "1.2.16"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.2.16.tgz#009ffb38915a8aed01693bec2e39933aeb7f6aba"
-  integrity sha512-TrLpGov7J9hBdWWREudBreragmRPq2Q5b19Ly66XoZVUZbb8JXkIqHkPbTHKicuVC8jNnkP4bRnNVik4mkPahw==
-  dependencies:
-    he "1.1.1"
 
 node-releases@^2.0.3:
   version "2.0.4"
@@ -3234,6 +3217,11 @@ universalify@^2.0.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
   integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
 
+unpkg_url@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/unpkg_url/-/unpkg_url-0.0.1.tgz#24ee5c07ee3651bad7bad62ad14470cc50b05a77"
+  integrity sha512-7S29fCCgE1FNR9UGlXzrE5FKDRinhL48TMZXBb+xjbQZY+b0LwRTxDFyfWnwtTj6wWoz39kIegxD9+ORh2AJ4g==
+
 upath@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/upath/-/upath-1.2.0.tgz#8f66dbcd55a883acdae4408af8b035a5044c1894"
@@ -3290,14 +3278,6 @@ vue@^3.2.33:
     "@vue/runtime-dom" "3.2.33"
     "@vue/server-renderer" "3.2.33"
     "@vue/shared" "3.2.33"
-
-"vuepress-plugin-jsdelivr-cdn@https://github.com/njzjz/vuepress-plugin-jsdelivr-cdn#next":
-  version "0.0.6"
-  uid f4fc6ad229532ac8449882fb7e757e58542920d7
-  resolved "https://github.com/njzjz/vuepress-plugin-jsdelivr-cdn#f4fc6ad229532ac8449882fb7e757e58542920d7"
-  dependencies:
-    "@vuepress/utils" "^2.0.0-alpha.15"
-    node-html-parser "1.2.16"
 
 vuepress-vite@2.0.0-beta.45:
   version "2.0.0-beta.45"

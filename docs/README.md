@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://cdn.jsdelivr.net/npm/chemicaltools-web@3.1.176/public/chemicaltools.svg
+heroImage: https://unpkg.com/chemicaltools-web@3.1.176/public/chemicaltools.svg
 heroText: Chemical Tools
 tagline: Essential tools for chemistry students
 actionText: Try online version!
